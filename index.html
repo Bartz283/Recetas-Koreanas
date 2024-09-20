@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitio de Recetas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Recetas Koreanas</h1>
+            <nav>
+                <ul id="nav-list">
+                    <li><a href="#platos-principales">Platos Principales</a></li>
+                    <li><a href="#acompanamientos">Acompañamientos</a></li>
+                    <li><a href="#postres">Postres</a></li>
+                </ul>
+            </nav>
+            <div class="search-bar">
+                <input type="text" id="search-input" placeholder="Buscar recetas...">
+            </div>
+        </div>
+    </header>
+
+    <!-- Sección de recetas -->
+    <section id="recetas">
+        <div class="categoria" id="platos-principales">
+            <h2>Platos Principales</h2>
+            <div class="carousel" id="platos-principales-carousel"></div>
+        </div>
+
+        <div class="categoria" id="acompanamientos">
+            <h2>Acompañamientos</h2>
+            <div class="carousel" id="acompanamientos-carousel"></div>
+        </div>
+
+        <div class="categoria" id="postres">
+            <h2>Postres</h2>
+            <div class="carousel" id="postres-carousel"></div>
+        </div>
+    </section>
+
+    <button id="btnScrollTop" title="^">&#8679;</button>
+
+    <footer>
+        <p>© 2024 Victoria Monjes</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
